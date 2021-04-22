@@ -11,6 +11,8 @@ public class ApplePicker : MonoBehaviour
     public float basketBottomY = -12f;
     public float basketSpacingY = 2f;
     public List<GameObject> basketList;
+    public static float level = 1f;
+    public static float appleSpeed = 0.1f;
 
     // Start is called before the first frame update
     void Start()

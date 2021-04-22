@@ -19,7 +19,7 @@ public class EndScript : MonoBehaviour
 
     public void OnClickReloadGame()
     {
-        SceneManager.LoadScene("_Scene_0");
+        SceneManager.LoadScene("Start");
     }
 
     public void OnClickExitGame()
